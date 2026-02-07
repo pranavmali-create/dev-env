@@ -369,6 +369,11 @@ binds {
     // Alt-Shift-/, which is usually the same as Alt-?,
     // shows a list of important hotkeys.
 
+    // Custom poweroff and reboot keybinds
+    Alt+Ctrl+Shift+P { spawn "systemctl" "poweroff"; }
+    Alt+Ctrl+Shift+R { spawn "systemctl" "reboot"; }
+
+
     Alt+Shift+Slash { show-hotkey-overlay; }
 
     // Suggested binds for running programs: terminal, app launcher, screen locker.
