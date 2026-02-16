@@ -14,7 +14,7 @@ input {
         repeat-delay 200 
 
         xkb {
-            options "caps:escape"
+            // options "caps:escape" need to unmap this if kanata doesn't work
             // You can set rules, model, layout, variant and options.
             // For more information, see xkeyboard-config(7).
 
