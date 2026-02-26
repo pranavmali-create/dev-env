@@ -102,7 +102,7 @@ bindkey '^e' edit-command-line
 bindkey -v
 export KEYTIMEOUT=1
 
-bindkey -s '^F' 'script-tmux\n'
+bindkey -s '^t' 'script-tmux\n'
 bindkey -s '^g' 'open-git\n'
 # source /usr/share/fzf/key-bindings.zsh
 

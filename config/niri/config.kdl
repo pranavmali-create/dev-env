@@ -14,7 +14,7 @@ input {
         repeat-delay 200 
 
         xkb {
-            // options "caps:escape" need to unmap this if kanata doesn't work
+            options "caps:escape"
             // You can set rules, model, layout, variant and options.
             // For more information, see xkeyboard-config(7).
 
@@ -275,6 +275,7 @@ layout {
 
 // This line starts waybar, a commonly used bar for Wayland compositors.
 spawn-at-startup "qs" "-c" "noctalia-shell"
+spawn-at-startup "kanata"
 // spawn-at-startup "noctalia-shell"
 
 
