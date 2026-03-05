@@ -112,6 +112,16 @@ input {
     position x=1280 y=0
 }
 
+output "eDP-1" {
+    mode "1920x1080@144.000"
+    position x=0 y=0
+}
+
+output "HDMI-A-1" {
+    mode "1920x1080@200.000"
+    position x=1920 y=0
+}
+
 // Settings that influence how windows are positioned and sized.
 // Find more information on the wiki:
 // https://yalter.github.io/niri/Configuration:-Layout
@@ -308,7 +318,7 @@ screenshot-path "~/Pictures/Screenshots/Screenshot from %Y-%m-%d %H-%M-%S.png"
 // https://yalter.github.io/niri/Configuration:-Animations
 animations {
     // Uncomment to turn off all animations.
-    // off
+     off
 
     // Slow down all animations by this factor. Values below 1 speed them up instead.
     // slowdown 3.0
