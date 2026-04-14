@@ -1,0 +1,34 @@
+{
+  "DefaultEngine": "gg",
+  "CommandPrefix": ":",
+  "LinksCommand": ":links",
+  "AddURLCommand": ":add_url",
+  "SearchEngines": {
+    "gg": "https://www.google.com/search?q=%s",
+    "rd": "https://www.reddit.com/search/?q=%s",
+    "so": "https://stackoverflow.com/search?q=%s",
+    "yt": "https://www.youtube.com/results?search_query=%s"
+  },
+  "Bookmarks": [
+    {
+      "keyword": "gitp",
+      "name": "github",
+      "url": "https://github.com/pranavmali-create"
+    },
+    {
+      "keyword": "mtype",
+      "name": "monkeytype",
+      "url": "https://monkeytype.com/"
+    },
+    {
+      "keyword": "netm",
+      "name": "netmirror",
+      "url": "https://net22.cc/home?utm_source=home_page"
+    },
+    {
+      "keyword": "devenv",
+      "name": "devenv",
+      "url": "https://github.com/pranavmali-create/dev-env"
+    }
+  ]
+}

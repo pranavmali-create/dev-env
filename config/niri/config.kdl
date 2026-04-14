@@ -630,7 +630,7 @@ binds {
 
     Alt+s { screenshot; }
     Ctrl+Print { screenshot-screen; }
-    Alt+a { screenshot-window; }
+    // Alt+a { screenshot-window; }
 
     // Applications such as remote-desktop clients and software KVM switches may
     // request that niri stops processing the keyboard shortcuts defined here
