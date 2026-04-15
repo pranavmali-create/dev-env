@@ -29,6 +29,11 @@
       "keyword": "devenv",
       "name": "devenv",
       "url": "https://github.com/pranavmali-create/dev-env"
+    },
+    {
+      "keyword": "whts",
+      "name": "whatsapp",
+      "url": "https://web.whatsapp.com/"
     }
   ]
 }
