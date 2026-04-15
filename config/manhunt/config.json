@@ -34,6 +34,11 @@
       "keyword": "whts",
       "name": "whatsapp",
       "url": "https://web.whatsapp.com/"
+    },
+    {
+      "keyword": "spt",
+      "name": "spotify",
+      "url": "https://open.spotify.com/"
     }
   ]
 }
