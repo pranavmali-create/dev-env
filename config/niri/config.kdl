@@ -112,6 +112,13 @@ input {
     position x=1280 y=0
 }
 
+//setting the cursor to bibata 
+cursor {
+    xcursor-theme "Bibata-Modern-Classic" // Or "Bibata-Modern-Classic"
+    xcursor-size 24 // Set your preferred size
+}
+
+
 output "eDP-1" {
     mode "1920x1080@144.000"
     position x=0 y=0
