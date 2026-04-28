@@ -55,6 +55,11 @@
       "keyword": "spt",
       "name": "spotify",
       "url": "https://open.spotify.com/"
+    },
+    {
+      "keyword": "mdn",
+      "name": "mozilla web docs",
+      "url": "https://developer.mozilla.org/en-US/"
     }
   ]
 }
