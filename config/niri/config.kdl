@@ -115,7 +115,7 @@ input {
 //setting the cursor to bibata 
 cursor {
     xcursor-theme "Bibata-Modern-Classic" // Or "Bibata-Modern-Classic"
-    xcursor-size 24 // Set your preferred size
+    xcursor-size 20 // Set your preferred size
 }
 
 
