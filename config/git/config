@@ -10,3 +10,7 @@
 [credential "https://gist.github.com"]
 	helper = 
 	helper = !/usr/bin/gh auth git-credential
+[difftool "nvim_difftool"]
+    cmd = nvim -c \"packadd nvim.difftool\" -d \"$LOCAL\" \"$REMOTE\"
+[diff]
+    tool = nvim_difftool

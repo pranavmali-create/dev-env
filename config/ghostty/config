@@ -1,9 +1,9 @@
 theme = Rose Pine
-background = #000000
+background = #1f1f28
 #window-padding-balance = false
 #window-padding-color = extend-always
 window-decoration= none
-font-size = 20
+font-size = 15
 shell-integration-features = no-cursor,no-sudo,no-title
 gtk-titlebar = false
 
