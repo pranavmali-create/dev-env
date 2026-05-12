@@ -8,7 +8,8 @@
     "rd": "https://www.reddit.com/search/?q=%s",
     "so": "https://stackoverflow.com/search?q=%s",
     "yt": "https://www.youtube.com/results?search_query=%s",
-    "spt": "https://open.spotify.com/search/%s"
+    "spt": "https://open.spotify.com/search/%s",
+    "gpta": "https://chatgpt.com/?prompt=%s\u0026temporary-chat=true"
   },
   "Bookmarks": [
     {
