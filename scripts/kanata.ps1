@@ -1,4 +1,11 @@
-
+$currentPrincipal = New-Object Security.Principal.WindowsPrincipal([Security.Principal.WindowsIdentity]::GetCurrent())
+$adminRole = [Security.Principal.WindowsBuiltInRole]::Administrator
+if (-not $currentPrincipal.IsInRole($adminRole)) {
+    # If not Admin, relaunch as Admin
+    Write-Host "Elevating privileges..." -ForegroundColor Cyan
+    Start-Process powershell.exe -Verb RunAs -ArgumentList "-File `"$PSCommandPath`""
+    exit
+}
 if(Get-Command "kanata.exe" -ErrorAction SilentlyContinue) {
     Write-Host "kanata is installed"
     } 
