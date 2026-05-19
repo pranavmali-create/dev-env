@@ -1,9 +1,13 @@
+
 if(Get-Command "kanata.exe" -ErrorAction SilentlyContinue) {
     Write-Host "kanata is installed"
     } 
 else{
     mkdir "C:\tools\kanata"
-    Invoke-WebRequest -Uri "kanata_windows_binaryvariant.exe" -OutFile "C:\tools\kanata"
-    Invoke-WebRequest -Uri "https://raw.githubusercontent.com/pranavmali-create/kanata-config/refs/heads/main/kanata.kbd" -OutFile "C:\tools\kanata"
-
+    Invoke-WebRequest -Uri "https://github.com/jtroo/kanata/releases/download/v1.11.0/windows-binaries-x64.zip" -OutFile "C:\tools\kanata\kanata.zip"
+    Expand-Archive -Path "C:\tools\kanata\kanata.zip" -DestinationPath "C:\tools\kanata" 
 }
+
+    Invoke-WebRequest -Uri "https://raw.githubusercontent.com/pranavmali-create/kanata-config/refs/heads/main/kanata.kbd" -OutFile "C:\tools\kanata\kanata.kbd"
+
+    & "C:\tools\kanata\kanata_windows_tty_winIOv2_x64.exe" --cfg "C:\tools\kanata\kanata.kbd"
